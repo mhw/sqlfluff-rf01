@@ -1,0 +1,12 @@
+sqlfluff_rf01:
+  outputs:
+    dev:
+      dbname: sqlfluff
+      schema: public
+      host: localhost
+      pass: bogus
+      port: 5432
+      threads: 1
+      type: postgres
+      user: mhw
+  target: dev
